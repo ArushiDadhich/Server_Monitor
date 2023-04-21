@@ -82,7 +82,7 @@ if __name__ == "__main__":
     except:
         servers = [ 
             Server("reddit.com", 80, "plain", "high"),
-            Server("msn.com", 80, "plain", "high"),
+            Server("youtube.com", 80, "plain", "high"),
             Server("smtp.gmail.com", 465, "ssl", "high"),
             Server("192.168.119.128", 80, "ping", "high"),
             Server("yahoo.com", 80, "plain", "high")

@@ -9,10 +9,10 @@ def email_alert(subject, body, to):
     msg.set_content(body)
 
     # UPDATE THESE LINES TO YOUR INFO
-    gmail_user = 'molly1950@gmail.com'
-    gmail_password = 'dishiaru02'
+    gmail_user = 'arushidadhich28@gmail.com'
+    gmail_password = ''
     msg['Subject'] = subject
-    msg['From'] = "molly1950@gmail.com"
+    msg['From'] = "arushidadhich28@gmail.com"
     msg['To'] = to
 
 
